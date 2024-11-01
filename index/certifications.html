@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certification Dashboard</title>
+    <link rel="stylesheet" href="../styles/b.css" />
+  </head>
+  <body>
+    <!-- Phần đầu trang -->
+    <div class="header">
+      <h1>My Learning</h1>
+      <p>
+        87hr 36min watched •
+        <a href="#" style="color: #ccc">View all activity</a>
+      </p>
+    </div>
+
+    <!-- Thanh điều hướng -->
+    <div class="nav-bar">
+      <a href="#" onclick="goToAllCourses()">All courses</a>
+      <a href="#" onclick="goToLearningPaths()">Learning paths</a>
+      <a href="#" onclick="goToCertifications()">Certifications</a>
+      <a href="#" onclick="goToArchived()">Archived</a>
+      <a href="#" onclick="goToLearningTools()">Learning tools</a>
+    </div>
+
+    <div class="container">
+      <!-- My Badges Section -->
+      <div class="section">
+        <div class="section-header">
+          <div>My badges</div>
+          <button class="import-btn">Import new badge</button>
+        </div>
+        <p class="badge-count">
+          You have earned and uploaded <strong>0 badges</strong>
+          <span class="icon-info">ℹ️</span>
+        </p>
+        <p class="badge-info">
+          Currently, there are no badges uploaded to your profile. Begin your
+          journey towards your certification goals or
+          <a href="#">upload your third-party badges</a> to your profile and
+          impress your manager and peers with your accomplishments. Start
+          preparing for your next certificate today!
+        </p>
+      </div>
+
+      <!-- Certification Preparation Section -->
+      <div class="section">
+        <div class="section-header">
+          <div>Certification preparation</div>
+          <button class="explore-btn">Explore certification preparation</button>
+        </div>
+        <p class="certification-count">
+          You are preparing for <strong>4 certifications</strong>
+          <span class="icon-info">ℹ️</span>
+        </p>
+
+        <!-- Certification Cards -->
+        <div class="certifications">
+          <div class="certification-card">
+            <img src="oracle-logo.png" alt="Oracle Logo" />
+            <div>
+              <p class="certification-title">
+                Oracle Certified Associate, Java SE 8 Programmer
+              </p>
+              <p class="certification-provider">Oracle</p>
+            </div>
+          </div>
+
+          <div class="certification-card">
+            <img src="istqb-logo.png" alt="ISTQB Logo" />
+            <div>
+              <p class="certification-title">
+                ISTQB® Certified Tester Foundation Level (CTFL)
+              </p>
+              <p class="certification-provider">Brightest</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

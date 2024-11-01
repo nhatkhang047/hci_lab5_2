@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Learning</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>My learning</h1>
+      <p>87hr 36min watched | <a href="#">View all activity</a></p>
+    </div>
+
+    <div class="nav-bar">
+      <a href="#" onclick="goToAllCourses()">All courses</a>
+      <a href="#" onclick="goToLearningPaths()">Learning paths</a>
+      <a href="#" onclick="goToCertifications()">Certifications</a>
+      <a href="#" onclick="goToAchieved()">Archived</a>
+      <a href="#" onclick="goToLearningTools()">Learning tools</a>
+    </div>
+
+    <div class="filters">
+      <div class="filter">
+        Sort by
+        <select>
+          <option>Recently Accessed</option>
+        </select>
+      </div>
+      <div class="filter">
+        Filter by
+        <select>
+          <option>Categories</option>
+          <option>Progress</option>
+          <option>Instructor</option>
+        </select>
+      </div>
+      <input type="text" placeholder="Search my courses" class="search" />
+    </div>
+
+    <div class="course-grid">
+      <div class="course-card">
+        <img src="image/image1.jpg" alt="Course 1" />
+        <h3>FPT_ISMS Refresh Training S2 2024 (Vietnamese)</h3>
+        <p>100% complete</p>
+        <button>Leave a rating</button>
+      </div>
+
+      <div class="course-card">
+        <img src="image/image2.jpg" alt="Course 2" />
+        <h3>The Complete Spring Boot Development Bootcamp</h3>
+        <p>100% complete</p>
+        <button>Leave a rating</button>
+      </div>
+      <div class="course-card">
+        <img src="image/image3.jpg" alt="Course 2" />
+        <h3>The Complete Spring Boot Development Bootcamp</h3>
+        <p>100% complete</p>
+        <button>Leave a rating</button>
+      </div>
+      <div class="course-card">
+        <img src="image/image4.jpg" alt="Course 2" />
+        <h3>The Complete Spring Boot Development Bootcamp</h3>
+        <p>100% complete</p>
+        <button>Leave a rating</button>
+      </div>
+      <div class="course-card">
+        <img src="image/image5.jpg" alt="Course 2" />
+        <h3>The Complete Spring Boot Development Bootcamp</h3>
+        <p>100% complete</p>
+        <button>Leave a rating</button>
+      </div>
+      <div class="course-card">
+        <img src="image/image6.jpg" alt="Course 2" />
+        <h3>The Complete Spring Boot Development Bootcamp</h3>
+        <p>100% complete</p>
+        <button>Leave a rating</button>
+      </div>
+
+      <!-- Add more course cards as needed -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

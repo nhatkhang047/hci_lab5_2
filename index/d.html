@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Tools Interface</title>
+    <link rel="stylesheet" href="../styles/d.css" />
+    <!-- Liên kết tới file CSS -->
+  </head>
+  <body>
+    <!-- Phần đầu trang -->
+    <div class="header">
+      <h1>My Learning</h1>
+      <p>
+        87hr 36min watched •
+        <a href="#" style="color: #ccc">View all activity</a>
+      </p>
+    </div>
+
+    <!-- Thanh điều hướng -->
+    <div class="nav-bar">
+      <a href="#" onclick="goToAllCourses()">All courses</a>
+      <a href="#" onclick="goToLearningPaths()">Learning paths</a>
+      <a href="#" onclick="goToCertifications()">Certifications</a>
+      <a href="#" onclick="goToArchived()">Archived</a>
+      <a href="#" onclick="goToLearningTools()">Learning tools</a>
+    </div>
+
+    <div class="container">
+      <h1>Learning tools</h1>
+      <p>
+        Explore a diverse range of courses and take advantage of these versatile
+        tools to gain knowledge, skills, and confidence at your own pace.
+      </p>
+      <div class="tools">
+        <div class="tool-card">
+          <h2><span class="icon">⏰</span> Learning reminders</h2>
+          <p>Set time aside to learn and get reminders using your scheduler.</p>
+          <p>You currently have no ongoing reminders.</p>
+          <a href="#">See more</a>
+        </div>
+        <div class="tool-card">
+          <h2>
+            <span class="icon">📝</span> Reflections
+            <span class="beta">Beta</span>
+          </h2>
+          <p>Take time to reflect to strengthen your learning.</p>
+          <p>
+            You have currently no recorded reflections on your learning journey.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

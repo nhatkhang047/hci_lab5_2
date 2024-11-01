@@ -1,0 +1,142 @@
+.nav-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  text-align: left;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  font-size: 14px;
+}
+.nav-bar {
+  display: flex;
+
+  background-color: #444;
+  padding: 10px 0;
+  text-align: left;
+}
+.nav-bar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-bar a:hover {
+  color: #ccc;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section-header {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.badge-count,
+.certification-count {
+  color: #5b5b5b;
+  font-size: 0.9em;
+}
+
+.badge-info,
+.certification-info {
+  font-size: 0.9em;
+  color: #7b7b7b;
+  line-height: 1.4;
+}
+
+.import-btn,
+.explore-btn {
+  background-color: #a64afc;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.certifications {
+  display: flex;
+  gap: 15px;
+}
+
+.certification-card {
+  width: 45%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.certification-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.certification-info {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.certification-title {
+  font-weight: bold;
+  font-size: 1em;
+  color: #333;
+  margin: 0;
+}
+
+.certification-provider {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.icon-info {
+  font-size: 0.9em;
+  color: #888;
+}
